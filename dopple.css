@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap');
+
+
+* {
+    scroll-behavior: smooth;
+    font-family: 'Nunito', sans-serif;
+
+    cursor: url('https://i.imgur.com/LEy8Dtc.png'), auto;
+  }
+
+.click{cursor: url("https://i.imgur.com/qjLIcox.png"),auto;}
+body{
+    cursor: url('https://i.imgur.com/LEy8Dtc.png'), auto;
+    background-image: url("https://wallpapercave.com/wp/wp2757874.gif");
+    background-attachment: fixed;
+    background-size:cover;
+    margin: 0px;
+}
+.body-font{
+    margin-top: -20vh;
+}
+#navbar {
+    overflow: hidden;
+    background-color:black;
+    opacity: 60%;
+    padding: 10px 0px;
+    width: 100%;
+    position:fixed ;
+    max-height: 110px;
+    margin: 0px;
+  }
+#navbar:hover {
+    opacity: 100%;
+    transition-duration: 0.5s;
+}
+#navbar a {
+  font-family: 'Nunito', sans-serif;
+  float: left;
+  display: block;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 30px 0px;
+  margin: 5px 15px;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bolder;
+}
+.mod{
+    border-radius: 10px;
+    font-family: 'Nunito', sans-serif;
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px;
+    margin: 30px 15px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+    background-color: rgb(253, 181, 46);
+  }
+  .mod:hover{
+    padding: 13px;
+    text-shadow: 1px 1px 20px rgb(107, 183, 255);
+    transition-duration: 0.3s;
+  }
+.right{
+  float: right;
+}
+#navbar a:hover {
+  text-shadow: 1px 1px 20px rgb(107, 183, 255);
+  border-top: 3px solid rgb(107, 255, 181);
+} 
+
+#navbar a.active {
+  text-shadow: 0 0 30px rgb(107, 255, 255);
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.sticky + .content {
+  padding-top: 120px;
+}
+.logo {
+  height: 100px;
+  float: left;
+  padding-left: 30px;
+  padding-right: 40px;
+}
